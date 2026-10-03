@@ -1,0 +1,43 @@
+# Credentials and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Fabric identities and wallets
+wallet/
+wallets/
+crypto-config/
+
+# Environment files
+.env
+.env.*
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Generated analysis outputs
+*.cache

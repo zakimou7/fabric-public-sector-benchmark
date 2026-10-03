@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Benchmarking Hyperledger Fabric for Public Sector Blockchain Applications: Experimental Artifacts"
+message: "If you use these artifacts, please cite the associated paper."
+type: software
+authors:
+  - family-names: Benbraika
+    given-names: "Mohamed Zakaria"
+  - family-names: Reghioua
+    given-names: Abdelhay
+  - family-names: Lanani
+    given-names: Sadok
+  - family-names: Kahloul
+    given-names: Laid
+- family-names:  Lahouel
+    given-names: Hadjer 
+- family-names: Benbrahim
+    given-names: Fateh
+
+
+version: "1.0.0"
+date-released: 2026-XX-XX
+license: "MIT"
+repository-code: "https://github.com/zakimou7/fabric-public-sector-benchmark.git"
+keywords:
+  - "Hyperledger Fabric"
+  - "Hyperledger Caliper"
+  - "Blockchain benchmarking"
+  - "Permissioned blockchain"
+  - "Raft"
+  - "Public sector"
+  - "E-government"
+  - "Performance evaluation"
