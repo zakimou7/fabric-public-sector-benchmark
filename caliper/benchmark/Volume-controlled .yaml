@@ -1,0 +1,142 @@
+
+
+test:
+  name: GRANTA Fabric 
+  description: >
+    GRANTA Platform —  benchmark  smart contract
+     cdeRegistry .
+    
+
+  workers:
+    number: 5
+  rounds:
+    - label: registercde-1000tx
+      description: register cde benchmark - 1000 transactions
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 1000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-2000tx
+      description: register cde benchmark - 2000 transactions
+      txNumber: 2000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 2000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-3000tx
+      description: register cde benchmark - 3000 transactions
+      txNumber: 3000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 3000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-4000tx
+      description: register cde benchmark - 4000 transactions
+      txNumber: 4000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 4000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-5000tx
+      description: register cde benchmark - 5000 transactions
+      txNumber: 5000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 5000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-6000tx
+      description: register cde benchmark - 6000 transactions
+      txNumber: 6000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 6000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-7000tx
+      description: register cde benchmark - 7000 transactions
+      txNumber: 7000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 7000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-8000tx
+      description: register cde benchmark - 8000 transactions
+      txNumber: 8000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 8000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-9000tx
+      description: register cde benchmark - 9000 transactions
+      txNumber: 9000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 9000
+          contractId: nesdacore
+          channelName: nesdachannel
+    - label: registercde-10000tx
+      description: register cde benchmark - 10000 transactions
+      txNumber: 10000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workload/issue-certificate.js
+        arguments:
+          assets: 10000
+          contractId: nesdacore
+          channelName: nesdachannel

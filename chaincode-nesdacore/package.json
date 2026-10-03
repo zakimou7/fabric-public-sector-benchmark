@@ -1,0 +1,12 @@
+{
+  "name": "nesdacore",
+  "version": "1.0.0",
+  "description": "NESDA Core Chaincode - Applications, Reviews, Certificates, NFT, Notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fabric-shim": "^2.2.2"
+  }
+}
